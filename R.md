@@ -37,3 +37,5 @@
 ![REmapwhat](/md_pics/remapwhat.png)
 REmap的介绍和用法还可以参见[REmap发布，用R绘制百度迁徙图](http://www.xueqing.tv/cms/article/view/id/10)
 这篇文章可以说是REmap的起始，现在的版本才0.3，看好它的发展。
+
+3/5/2017 5:03:06 PM 
