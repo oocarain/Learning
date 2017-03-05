@@ -38,3 +38,16 @@
 > 9.合并分支到master(执行合并操作要先切换到master分支)
 > 
 	git merge copy #将分支copy合并到master
+
+### 遇到的问题 ###
+
+Push到远程出现如下问题:
+
+![mark](http://ol8t44w0x.bkt.clouddn.com/blog/20170305/153236729.png)
+
+可以通过命令：
+
+	$git push -f 
+解决。
+
+![mark](http://ol8t44w0x.bkt.clouddn.com/blog/20170305/153534451.png)
