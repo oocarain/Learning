@@ -50,4 +50,4 @@ Push到远程出现如下问题:
 	$git push -f 
 解决。
 
-![mark](http://ol8t44w0x.bkt.clouddn.com/blog/20170305/153534451.png)
+
