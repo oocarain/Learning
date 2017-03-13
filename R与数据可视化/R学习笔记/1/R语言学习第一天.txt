@@ -1,0 +1,22 @@
+1.输入：函数source(),在当前会话执行一个脚本；如果文件名中不包含路径，R将
+        假设此脚本在当前工作目录中。举例来说，source("myscript.R")将执行包含在文件
+        myscript.R中的R语句集合。
+		
+2.文本输出：函数sink()重定向文本输出，对图形没有影响
+            sink("文件路径/文件名",append=TRUE,split=TRUE);
+		    如果只写文件名则默认在相同的工作目录下
+		    append为真表示以追加模式写入，
+		    split为真表示将输出同时发送到屏幕和输出文件中
+		 
+3.图形输出：
+pdf("filename.pdf") PDF文件
+win.metafile("filename.wmf") Windows图元文件
+png("filename.png") PBG文件
+jpeg("filename.jpg") JPEG文件
+bmp("filename.bmp") BMP文件
+postscript("filename.ps") PostScript文件	
+	 
+4. dev.off()将输出返回到终端
+
+
+

@@ -1,0 +1,31 @@
+---
+output: pdf_document
+---
+------------------------------------
+##2016-11-22##
+##Rstudio中文档混编##  
+###一个简单的例子，详细介绍R+Markdowm的使用###  
+###关键词：Bioconductor的安装，knitr包的使用，R+Markdown ### 
+###详细内容参考：《R语言与Bioconductor生物信息学应用》 主编 高山 等 P14  ###
+```{r rnorm}
+
+set.seed(1234) 
+x = rnorm(100)
+mean(x)
+
+```
+下面绘制直方图，并添加一条曲线  
+```{r, fig.height=6, fig.width=7}
+
+hist(x,freq = F,col = 'grey',border = 'white')
+lines(density(x),lty=2,lwd=2)
+
+
+```
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+# -*- encoding: UTF-8 -*-
+import json
+import re
+with open('register.txt','r') as f:
+        database = f.read()
+        database = re.sub('[\s]','',database)
+        dict_database = json.loads(database)
+        if 'oocarain' in dict_database:
+            print('ok')
+        else:
+            print('error')
+        print(dict_database['oocarain'])

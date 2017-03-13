@@ -1,0 +1,11 @@
+library(REmap)
+city_vec = c("北京","Shanghai","广州")
+get_city_coord("Shanghai")
+get_geo_position (city_vec)
+set.seed(125)
+origin = rep("长春",10)
+destination = c('上海','广州','大连','南宁','南昌',
+                '拉萨','南京','包头','重庆','常州')
+dat = data.frame(origin,destination)
+out = remap(dat,title = "REmap实例数据",subtitle = "theme:Dark")
+plot(out)

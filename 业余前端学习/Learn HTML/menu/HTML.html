@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML page</title>
+</head>
+<body>
+<h1 id="Top">This is a HTML practice page</h1>
+<p>返回首页<a href="../index.html">Blog Home Page</a></p>
+<nav>
+<p>This Page include:</p>
+<ul>
+    <li><a href="#about blog">about blog</a></li>
+    <li><a href="#begin html">Begin Html</a></li>
+</ul>
+</nav>
+<div id="content" style="background-color:#EEEEEE;height:1000px;width:1200px;float:left;">
+    <h2 id="about blog">About my blog</h2>
+    <p style="background-color: #9D8FD6"><a href="http://oocarain.top">点击这个前往我搭建的个人博客</a></p>
+    <p>之前用hexo,node.js,git建立里一个个人博客，用来记录学习过程中遇到的问题和自己的心路历程</p>
+    <p>这儿是学习HTML的过程，应该也算是小blog了吧</p>
+    <h2 id="begin html">下面是学习html的一些测试:</h2>
+    <hr>
+    <p id="demo">
+        1.JavaScript 能改变 HTML 元素的样式。
+    </p>
+    <script>
+        function myFunction()
+        {
+            x=document.getElementById("demo") // 找到元素
+            x.style.color="#ff0000";          // 改变样式
+        }
+    </script>
+    <button type="button" onclick="myFunction()">点击这里</button>
+    <p id="test">
+        This is second test
+    </p>
+    <script>
+        function myFunction2()
+        {
+            x=document.getElementById("test") // 找到元素
+            x.style.color="#00ff00";          // 改变样式
+        }
+    </script>
+    <button type="button" onclick="myFunction2()">点击这里</button>
+<p>Search in <a href="http://www.google.com" title="Search something in Google">Google</a></p>
+<p><a href="mailto:oocarain@163.com">E-mail 联系我</a></p>
+<p>Documention of <a href="http://coolshell.cn/articles/5426.html">VIM</a></p>
+<p><a href="#Top" accesskey="t">Back to Top</a></p>
+</div>
+</body>
+</html>
